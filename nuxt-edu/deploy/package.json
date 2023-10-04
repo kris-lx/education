@@ -1,0 +1,9 @@
+{
+    "private":true,
+    "scripts": {
+        "start": "cross-env PORT=5000 HOST=localhost node ./.output/server/index.mjs "
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
